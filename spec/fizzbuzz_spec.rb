@@ -2,12 +2,12 @@ require_relative './spec_helper.rb'
 # We are missing a 'require_relative' here. Check README.md for instructions and an explanation! 
 require_relative '../fizzbuzz.rb'
 describe "fizzbuzz" do
-  def fizzbuzz(int)
-    if int % 3 == 0 
+  def fizzbuzz()
+    if Fizz % 3 == 0 
       puts "Fizz"
-    elsif int % 5 == 0 
+    elsif Buzz % 5 == 0 
       puts "Buzz"
-    elsif int % 3 && % 5 == 0 
+    elsif FizzBuzz % 3 && % 5 == 0 
       puts "FizzBuzz"
     else 
       puts "nil"
