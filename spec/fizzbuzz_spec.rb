@@ -4,11 +4,11 @@ require_relative '../fizzbuzz.rb'
 describe "fizzbuzz" do
   def fizzbuzz(int)
     if int % 3 == 0 
-      "Fizz"
-    end
+      puts "Fizz"
     else int % 5 == 0 
-      "Buzz"
-    end 
+      puts "Buzz"
+    elsif int % 3 || % 5 == 0 
+      puts "FizzBuzz"
   end
   it 'returns "Fizz" when the number is divisible by 3' do
     fizz_3 = fizzbuzz(3)
