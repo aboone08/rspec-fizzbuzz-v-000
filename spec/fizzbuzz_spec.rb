@@ -8,7 +8,7 @@ describe "fizzbuzz" do
     elsif num % 5 == 0 
        "Buzz"
     elsif ((num % 3 == 0) && (num % 5 == 0)) 
-       "FizzBuzz"
+       puts "FizzBuzz"
     else 
       puts "nil"
     end
