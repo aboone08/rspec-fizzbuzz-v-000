@@ -10,6 +10,7 @@ describe "fizzbuzz" do
     else if int % 3 && % 5 == 0 
       puts "FizzBuzz"
     else 
+      puts "nil"
     end
   end
   it 'returns "Fizz" when the number is divisible by 3' do
