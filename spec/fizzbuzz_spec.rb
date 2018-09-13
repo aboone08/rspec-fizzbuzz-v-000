@@ -3,11 +3,11 @@ require_relative './spec_helper.rb'
 require_relative '../fizzbuzz.rb'
 describe "fizzbuzz" do
   def fizzbuzz()
-    if Fizz % 3 == 0 
+    if num % 3 == 0 
       puts "Fizz"
-    elsif Buzz % 5 == 0 
+    elsif num % 5 == 0 
       puts "Buzz"
-    elsif FizzBuzz % 3 && % 5 == 0 
+    elsif num % 3 && % 5 == 0 
       puts "FizzBuzz"
     else 
       puts "nil"
