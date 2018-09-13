@@ -7,7 +7,7 @@ describe "fizzbuzz" do
       puts "Fizz"
     else int % 5 == 0 
       puts "Buzz"
-    else if int % 3 && % 5 == 0 
+    elsif int % 3 && % 5 == 0 
       puts "FizzBuzz"
     else 
       puts "nil"
